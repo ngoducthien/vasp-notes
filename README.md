@@ -1,2 +1,9 @@
 # vasp-notes
 A collection of notes, tips, tricks, and guides on compiling, running, and troubleshooting VASP (Vienna Ab initio Simulation Package).
+
+## Compilation
+
+This section covers everything related to **compiling** VASP, including setting up the environment and resolving common compilation issues.
+
+[**Compiling VASP 5.4.1 on NIMS Numerical Materials Simulator**](notes/compiling-vasp-5.4.1-nims.md)
+   - Detailed steps for compiling VASP on the NIMS Numerical Materials Simulator using Intel compilers and MPI (As of February 03, 2026).
