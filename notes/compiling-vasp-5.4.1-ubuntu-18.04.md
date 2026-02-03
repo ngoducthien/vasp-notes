@@ -1,5 +1,7 @@
 # Compiling VASP 5.4.1 on Linux (Ubuntu 18.04)
 
+Update: April 24, 2020
+
 This note describes how to compile VASP 5.4.1 on Ubuntu 18.04, using GNU compilers, OpenMPI, BLAS/LAPACK, ScaLAPACK, and FFTW provided by the system package manager.
 
 ## **Install necessary packages**
