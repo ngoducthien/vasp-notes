@@ -7,3 +7,6 @@ This section covers everything related to **compiling** VASP, including setting 
 
 [**Compiling VASP 5.4.1 on NIMS Numerical Materials Simulator**](notes/compiling-vasp-5.4.1-nims.md)
    - Detailed steps for compiling VASP on the NIMS Numerical Materials Simulator using Intel compilers and MPI (As of February 03, 2026).
+
+[**Compiling VASP 5.4.1 on Hokkaido University's Supercomputer**](notes/compiling-vasp-5.4.1-hokkaido-univ.md)
+   - Detailed steps for compiling VASP on the Hokkaido University's Supercomputer using Intel 2019 compilers and MPI-FFTW (As of November 07, 2020).
