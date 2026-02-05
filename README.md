@@ -1,7 +1,7 @@
 # vasp-notes
 A collection of notes, tips, tricks, and guides on compiling, running, and troubleshooting VASP (Vienna Ab initio Simulation Package).
 
-## Compilation
+## Compilation of VASP
 
 This section covers everything related to **compiling** VASP, including setting up the environment and resolving common compilation issues.
 
@@ -14,3 +14,7 @@ This section covers everything related to **compiling** VASP, including setting 
 [**Compiling VASP 5.4.1 on Linux (Ubuntu 18.04)**](notes/compiling-vasp-5.4.1-ubuntu-18.04.md)
    - This note describes how to compile VASP 5.4.1 on Ubuntu 18.04, using GNU compilers, OpenMPI, BLAS/LAPACK, ScaLAPACK, and FFTW provided by the system package manager. (**As of April 24, 2020**).
 
+
+## Compilation of Supported Packages
+
+[**Compiling WANNIER90 v1.2 on the NIMS Numerical Materials Simulator**](notes/compiling-wannier-v1.2-nims.md) (**Update: February 05, 2026**).
