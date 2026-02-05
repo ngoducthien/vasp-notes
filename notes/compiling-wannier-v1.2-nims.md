@@ -98,7 +98,9 @@ You should see the compiled binary `wannier90.x` in the directory.
 
 To verify that everything is set up correctly, run a test example:
 
-`./wannier90.x < test_example > output.log`
+```bash
+./wannier90.x < test_example > output.log
+```
 
 Check the `output.log` for any errors. If everything is set up correctly, the output should indicate that the code has run successfully.
 
