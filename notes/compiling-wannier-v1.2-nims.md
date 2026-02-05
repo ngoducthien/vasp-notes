@@ -14,7 +14,8 @@ This tutorial provides a step-by-step guide to compile **WANNIER90 v1.2** on the
 Download the source code of **WANNIER90 v1.2** from the official website, after downloading, untar the source code:
 
 ```bash
-tar -xvzf wannier90-1.2.tar.gz cd wannier90-1.2
+tar -xvzf wannier90-1.2.tar.gz
+cd wannier90-1.2
 ```
 ### **2. Load Necessary Modules**
 
