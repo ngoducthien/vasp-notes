@@ -49,9 +49,9 @@ Here is the relevant section to modify:
 #=========================================================
 # For Linux with Intel oneAPI (2023.x)
 #=========================================================
-F90     = ifort               # Set Fortran compiler to Intel Fortran (ifort)
-FCOPTS  = -O2                  # Optimization flag
-LDOPTS  = -O2                  # Linker optimization flag
+F90     = ifort
+FCOPTS  = -O2
+LDOPTS  = -O2
 
 #=========================================================
 # Intel MKL (provided by inteloneapi module)
