@@ -10,14 +10,15 @@ This tutorial explains how to compile **VASP 5.4.1** with **WANNIER90 v1.2** int
 
 Before compiling **VASP 5.4.1** with **WANNIER90**, you need to first compile **WANNIER90 v1.2** by following the tutorial:
 
-- [**Compiling WANNIER90 v1.2 on the NIMS Numerical Materials Simulator**](notes/compiling-wannier-v1.2-nims.md).
+- [**Compiling WANNIER90 v1.2 on the NIMS Numerical Materials Simulator**](compiling-wannier-v1.2-nims.md).
 
 After following that tutorial, make sure that **WANNIER90** is compiled and that the required libraries (like `libwannier.a`) are available.
 
 ### **Step 2: Re-compile VASP 5.4.1 with WANNIER90**
 
 Once **WANNIER90** is compiled, you can proceed with recompiling **VASP 5.4.1** to include **WANNIER90** support by following the tutorial with the modified `makefile.include`
-- [**Compiling VASP 5.4.1 on NIMS Numerical Materials Simulator**](notes/compiling-vasp-5.4.1-nims.md) 
+- [**Compiling VASP 5.4.1 on NIMS Numerical Materials Simulator**](compiling-vasp-5.4.1-nims.md) 
+
 #### 1. **Modify `makefile.include`**
 
 In the **VASP** source directory, you need to modify the **`makefile.include`** file to enable the **VASP2WANNIER90** interface.
