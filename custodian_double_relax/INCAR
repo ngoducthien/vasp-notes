@@ -1,0 +1,69 @@
+# General settings
+  PREC       = Accurate
+  ISTART     = 0
+# LSCALAPACK = .FALSE.
+# ICHARG     = 11
+  ISPIN      = 2
+  MAGMOM     = 3*0.8
+
+# Optical calculations
+# LOPTICS    = .TRUE.
+# CSHIFT     = 0.1
+
+# Parallelization
+# NPAR       = 12
+  KPAR       = 4
+# NCORE      = 24
+
+# Hybrid calculations
+# LHFCALC    = .TRUE.
+# HFSCREEN   = 0.2
+# AEXX       = 0.25
+# PRECFOCK   = F
+# TIME       = 0.4
+
+# Ionic Relaxation
+  EDIFFG     = -5.E-3
+  IBRION     = 2
+  NSW        = 100
+  ISIF       = 3
+
+# Electronic Relaxation (SCF)
+# IALGO      = 48
+  ALGO       = Normal
+  EDIFF      = 1.E-6
+  ENCUT      = 520
+  LREAL      = .FALSE.
+  NELM       = 256
+# NELMIN     = 5
+
+# Write flags
+  LWAVE      = .FALSE.
+  LCHARG     = .FALSE.
+# LAECHG     = .TRUE.
+# LORBIT     = 11
+# LORBMOM    = .TRUE.
+
+# DOS settings
+  ISMEAR     = 0
+  SIGMA      = 0.05
+# NBANDS     = 72
+# EMIN       = -20.0
+# EMAX       = 20.0
+# NEDOS      = 4000
+
+# LDA + U parameters
+# LDAU       = .TRUE.
+# LDAUTYPE   = 2
+# LDAUL      = 2 1 -1
+# LDAUU      = 7.51 4.37 0
+# LDAUJ      = 0 0 0
+# LDAUPRINT  = 0
+# LMAXMIX    = 4
+
+# Uncategorized
+# NGX        = 46
+# NGY        = 46
+# NGZ        = 46
+  ADDGRID    = .TRUE.
+

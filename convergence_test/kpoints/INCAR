@@ -1,0 +1,12 @@
+ENCUT = 520
+GGA = PE
+PREC = Accurate
+ISTART = 0
+ISMEAR = -5
+KPAR = 4
+EDIFF = 1.E-6
+ALGO = Normal
+LCHARG = .FALSE.
+LWAVE = .FALSE.
+LREAL = .FALSE.
+ISYM = 0

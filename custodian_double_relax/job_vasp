@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH -J vasp
+#SBATCH -p qM			          # Job class
+#SBATCH -n 128                    # Number of MPI processes
+#SBATCH -c 1                      # Number of threads per MPI process
+#SBATCH -o slurm-%j.out           # Standard Output file
+#SBATCH -e slurm-%j.err           # Standard Error file
+#SBATCH -t 47:30:00               # Time limit
+
+module load inteloneapi/2023.2.0
+module load intel-mpi/2021.16
+
+date
+# srun ~/bin/vasp_std_5.4.1 > vasp.out 2>&1
+python input.py > test.log 2>&1
+date
+
