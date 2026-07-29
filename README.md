@@ -1,5 +1,5 @@
 # vasp-notes
-A collection of notes, tips, tricks, and guides on compiling, running, and troubleshooting VASP (Vienna Ab initio Simulation Package).
+A collection of notes, tips, tricks, and practical guides for computational materials science using VASP (Vienna Ab initio Simulation Package), covering compilation, input preparation, convergence testing, workflows, visualization, and troubleshooting.
 
 ## Compilation of VASP
 
